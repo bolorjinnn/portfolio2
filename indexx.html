@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/c499c002f0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div  id="#home" class="home">
+        <div class="container">
+            <div class="header"><nav>
+                <ul id="sidemenu">
+                 <li><a href="#home">HOME</a></li>
+                 <li><a href="#about">ABOUT</a></li>
+                 <li><a href="#portfolio">PORTFOLIO</a></li>
+                 <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+             </nav></div>
+            <div class="header-text">
+                <div class="role-container" id="roleContainer"></div>
+                <h1>Hi my name is <span>Bolorjin</span> <br>Welcome to my website</h1>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- About -->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img with redd square.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                 <h1 class="sub-title">About me</h1>
+                 <p>I am 16 years old.I study at plehanov in 11th grade.I am graduating this year so I am working on my application process.My personal statement essay includes my coding experience and what i want to do in next 10 years</p>
+
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Projects I have done </p>
+                    <p class="tab-links"onclick="opentab('experience')">Contact me</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Restaurant website</span></li>
+                        <li><span>Calculator</span>:Celsius to farenhait</li>
+                        <li><span>Age </span>counter</li>
+                        <li><span>Game</span>:rock-paper-scissor</li>
+                        <li><span>Passport Validation</span>(group project)</li>
+                        <li>and etc.You can find links below</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Gmail:</span><br>mendsaihanbolorjin@gmail.com</li>
+                        <li><span>Instagram:</span><br><a href="https://www.instagram.com/bolorjinnnnnnnn/">bolorjinnnnnnnn</a></li>
+                        <li><span>Facebook</span><br><a href="https://www.facebook.com/profile.php?id=100085132936338">Мэндсайхан Болоржин</a> </li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-july-august</span><br>1+ month in Mind academy learned HTML</li>
+                        <li><span>2023-july-august</span><br>1+ month in Mind academy learned CSS</li>
+                        <li><span>2023-september-november</span><br>2 month Mind academy learned JavaScript</li>
+                    </ul>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Screenshot (2).png" alt="">
+                    <div class="layer">
+                        <h3>Restaurant website</h3>
+                        <p>This is my first ever project</p>
+                        <a href=" https://bolorjinnn.github.io/restaurant-website/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Screenshot (10).png" alt="">
+                    <div class="layer">
+                        <h3>Timer</h3>
+                        <p>It is a timer just like your timer on your phone</p>
+                        <a href=" https://bolorjinnn.github.io/timer/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Screenshot (9).png" alt="">
+                    <div class="layer">
+                        <h3>To do list website</h3>
+                        <p>Its my favoutite one</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>   
+                <div class="work">
+                    <img src="Screenshot (8).png" alt="">
+                    <div class="layer">
+                        <h3>Onlain-shop website</h3>
+                        <p>Still learning so nothing special</p>
+                        <a href=" https://bolorjinnn.github.io/shop/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>   
+                <div class="work">
+                    <img src="Screenshot (7).png" alt="">
+                    <div class="layer">
+                        <h3>Weather website</h3>
+                        <p>Still learning this API thing ,but it shows weather of any city in the world</p>
+                        <a href=" https://bolorjinnn.github.io/weather/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>  
+                <div class="work">
+                    <img src="Screenshot (11).png" alt="">
+                    <div class="layer">
+                        <h3>Password validation project</h3>
+                        <p>This was a group project but in the end I did it by myself as usual</p>
+                        <a href=" https://bolorjinnn.github.io/truepass/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>  
+                <div class="work">
+                    <img src="Screenshot (12).png" alt="">
+                    <div class="layer">
+                        <h3>Color change project</h3>
+                        <p>There is a button that changes background color</p>
+                        <a href=" https://bolorjinnn.github.io/color/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>  
+                <div class="work">
+                    <img src="Screenshot (13).png" alt="">
+                    <div class="layer">
+                        <h3>Game rock-paper-scissor</h3>
+                        <p>Enjoy your game with computer</p>
+                        <a href=" https://bolorjinnn.github.io/rock-paper-scissor/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div> 
+                <div class="work">
+                    <img src="Screenshot (14).png" alt="">
+                    <div class="layer">
+                        <h3>Celsuis to Farenheit</h3>
+                        <p>It wiil count from celsius to farenheit</p>
+                        <a href=" https://bolorjinnn.github.io/ctof/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>     
